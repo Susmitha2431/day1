@@ -1,0 +1,54 @@
+    1  git
+    2  mkdir susmitha
+    3  cd
+    4  ls
+    5  cd desktop
+    6  mkdir susmitha
+    7  cd susmitha
+    8  ls
+    9  ./..
+   10  vim helloworld.text
+   11  ls
+   12  cat helloworld.text
+   13  git init
+   14  ls
+   15  ls -la
+   16  ls -ltr
+   17  man ls -ltr
+   18  man
+   19  cd./..
+   20  ls .git
+   21  cd .git
+   22  ls
+   23  cd../
+   24  cd -
+   25  git status
+   26  vim helloworld.text
+   27  git add helloworld.text
+   28  git status
+   29  vim helloworld.text
+   30  git status
+   31  git diff
+   32  git commit -m "version 1"
+   33  git status
+   34  git log
+   35  vim helloworld.text
+   36  clear
+   37  git add *
+   38  git status
+   39  git commit -m "version 2"
+   40  git log
+   41  git reset --hard 9c600c6e25b1951bf12e6fff96ea755eab24f1c0
+   42  vim helloworld.text
+   43  git reset --hard fd4ae69aee1025ecbd56ef8ef639c926ed8222a2
+   44  vim helloworld.text
+   45  git remote add origin https://github.com/Susmitha2431/day1.git
+   46  git remote -v
+   47  git push origin master
+   48  git push origin master
+   49  git history
+   50  git log master
+   51  git reflog
+   52  history
+
+
