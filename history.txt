@@ -50,5 +50,7 @@
    50  git log master
    51  git reflog
    52  history
-
+   60  git pull https://github.com/Susmitha2431/day1.git master
+   61  git push origin master
+do not directly push when some changes are made on the branch from local. your request get rejected. firstly pull the changes from master branch(downloads all the changes to local repo) and then push your new changes to master.
 
